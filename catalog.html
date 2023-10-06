@@ -8,7 +8,7 @@
   </head>
 
   <body>
-    <header class="main-header">
+    <header class="header">
       <a class="header-logo" href="index.html">
         <img src="#" alt="Логотип Седона">
       </a>
@@ -38,9 +38,8 @@
       </nav>
     </header>
 
-    <main class="main-inner">
+    <main class="main">
       <div class="header-filter">
-        <img class="header-filter-background" src="#" alt="Одно из мест седоны">
         <header class="inner-header-title">
           <h1 class="catalog-filter-title">Гостиницы Седоны</h1>
           <ul class="catalog-filter-navigation">
@@ -123,7 +122,7 @@
               </ul>
             </fieldset>
             <button class="button" type="submit">Применить</button>
-            <a class="button" href="#">Сбросить</a>
+            <button class="button" type="button">Сбросить</button>
           </form>
         </section>
       </div>
@@ -227,20 +226,18 @@
           </li>
         </ul>
       </section>
-
-    </main>
-
-    <footer class="main-footer">
-      <section class="block-email-distribution">
-        <img class="email-distribution-background" src="#" alt="Размытый пейзаж оризоны">
+      <section class="email-distribution">
         <h3 class="email-distribution-title">Подпишитесь на рассылку</h3>
         <p class="email-distribution-description">Только полезная информация и никакого спама, честное бойскаутское!</p>
         <form action="https://echo.htmlacademy.ru/" method="get">
           <input type="email" name="email" placeholder="Ваш e-mail">
-          <input type="submit" value="ПОДПИСАТЬСЯ">
+          <button type="submit">ПОДПИСАТЬСЯ</button>
         </form>
       </section>
-      <section class="block-social">
+    </main>
+
+    <footer class="footer">
+      <section class="social">
         <h2 class="visually-hidden">Контакты</h2>
         <ul class="social-icon">
           <li class="social-item">
